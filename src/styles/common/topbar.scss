@@ -1,0 +1,33 @@
+
+.topbar {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  background-color: #ffffff;
+  align-items: center;
+  line-height: 40px;
+  margin-bottom: 10px;
+  .search-item {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    .search-input {
+      ::v-deep .el-input__inner {
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+    .search-title {
+      margin-right: 10px;
+    }
+  }
+  .search-button {
+    padding: 8px 1px;
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+    i {
+      font-size: 12px;
+    }
+  }
+}
